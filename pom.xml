@@ -83,17 +83,20 @@
         <repository>
             <id>spring-repository</id>
             <name>Spring Repository</name>
-            <url>https://repo.spring.io/libs-release/</url>
+            <!-- <url>https://repo.spring.io/libs-release/</url> -->
+	    <url>http://207.154.203.43:8081/content/repositories/spring-libs-release/</url>
         </repository>
         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
-            <url>https://repo.spring.io/libs-milestone/</url>
+            <!-- <url>https://repo.spring.io/libs-milestone/</url> -->
+	    <url>http://207.154.203.43:8081/content/repositories/spring-libs-milestone/</url>
         </repository>
         <repository>
             <id>spring-snapshots</id>
             <name>Spring Snapshots</name>
-            <url>https://repo.spring.io/libs-snapshot/</url>
+            <!-- <url>https://repo.spring.io/libs-snapshot/</url> -->
+	    <url>http://207.154.203.43:8081/content/repositories/spring-libs-snapshot/</url> 
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -104,7 +107,8 @@
         <pluginRepository>
             <id>spring-plugins</id>
             <name>Spring Plugins Repository</name>
-            <url>https://repo.spring.io/plugins-release</url>
+            <!-- <url>https://repo.spring.io/plugins-release</url>-->
+	    <url>http://207.154.203.43:8081/content/repositories/spring-plugins-release/</url>
         </pluginRepository>
         <pluginRepository>
             <id>spring-repository</id>
